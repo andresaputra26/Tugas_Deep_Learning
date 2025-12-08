@@ -7,7 +7,7 @@ import {
   HAND_CONNECTIONS,
 } from "@mediapipe/drawing_utils";
 
-const API_URL = "https://andresaputra26-silabackend.hf.space/predict";
+const API_URL = "https://andresaputra26-silabackend.hf.space";
 
 const GestureComponent = ({ isActive, onNowResult, onOutputResult }) => {
   const webcamRef = useRef(null);
